@@ -7,8 +7,9 @@ body {
     margin: 0;
 }
 
-p {
-    margin: 5px;
+a:hover,button:hover {
+    cursor: pointer;
+    opacity: 0.9;
 }
 
 .navbar {
@@ -41,9 +42,10 @@ p {
 
 .navbar .right .login {
     color: white;
-    border-radius: 10%;
+    border-radius: 5px;
     padding: 6px 10px;
     border: 2px solid #3a70c7;
+
 }
 
 .navbar .right .signup {
@@ -124,10 +126,8 @@ p {
 
 
 .container2 .flexbox .cat-links button {
-    margin: 1em
-}
-
-.container2 .flexbox .cat-links button {
+    margin: 1em;
+    border: 0;
     border-radius: 7px;
     color: wheat;
     padding: 1em;
@@ -139,13 +139,15 @@ p {
 }
 
 .container2 .flexbox .cat-links button span {
-    font-size: 22px;
-    font-weight: 600px;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 
 .container2 .flexbox .cat-links button .small-text {
-    font-size: 18px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    font-size: 16px;
 }
 
 .section-footer {
